@@ -1,0 +1,14 @@
+@rootURL = https://localhost:7171
+
+GET {{rootURL}}/api/Books
+Accept: application/json
+
+###
+
+POST {{rootURL}}/api/Books
+Content-Type:application/json
+
+{
+  "title":"Book1",
+  "author":"Author1"
+}
